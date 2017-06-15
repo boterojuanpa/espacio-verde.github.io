@@ -18,6 +18,11 @@
         offset: 51
     });
 
+    $('body').ready({
+        target: '.navbar-fixed-top',
+        offset: 51
+    });
+
     // Closes the Responsive Menu on Menu Item Click
     $('.navbar-collapse ul li a').click(function(){ 
             $('.navbar-toggle:visible').click();
@@ -29,5 +34,6 @@
             top: 100
         }
     })
+    
 
 })(jQuery); // End of use strict
